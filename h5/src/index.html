@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<style>
+			.wrapper{
+			 width: 100%;
+			 height: 100%;;
+		 }
+		 header{
+			 width: 100%;
+			 height: 60px;
+			 background: red;
+			 }
+			 .box{
+				 width: 100%;
+				 height: 100%;
+				display: none;
+				 position: fixed;
+				 top: 60px;
+				 left: 0;
+				 background: #fff;
+			 }
+		ul{
+			margin:0;
+			list-style: none;
+		}
+		li{
+			border-bottom: 1px solid #ccc;
+			line-height: 40px;
+		}
+
+	</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<input type="" name="" id="ipt" value="" />
+				<button type="button" id="btn">确定</button>
+			</header>
+			<div class="mui-segmented-control list">
+				<a class="mui-control-item mui-active" href="#item1">综合</a>
+				<a class="mui-control-item" href="#item2">单曲</a>
+				<a class="mui-control-item" href="#item2">话语</a>
+				<a class="mui-control-item" href="#item2">怀旧</a>
+			</div>
+
+			<div class="box">
+				<ul class="ul">
+					<!-- <li>1</li> -->
+				</ul>
+			</div>
+
+
+		</div>
+		<script src="js/libs/require.js" defer data-main="js/index"></script>
+	</body>
+</html>
